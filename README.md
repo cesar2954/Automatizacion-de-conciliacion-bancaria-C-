@@ -26,9 +26,9 @@ g++ generador.cpp -o generador
 .\generador
 
 # 2. Generar el extracto del banco basado en el ERP
-g++ gen_banco_automatico.cpp -o gen_banco
+g++ gen_banco.cpp -o gen_banco
 .\gen_banco
 
 # 3. Ejecutar la conciliación y generar informe
-g++ Conciliador_Final.cpp -o conciliador
+g++ Conciliador.cpp -o conciliador
 .\conciliador
